@@ -1,0 +1,20 @@
+﻿  Common.cpp
+  CustomText.cpp
+  D3DRenderer.cpp
+  Game.cpp
+  Hooking.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  LogScript.cpp
+  Logger.cpp
+  Main.cpp
+  MainScript.cpp
+  ScriptCallback.cpp
+  ScriptManager.cpp
+  UIManager.cpp
+  Generating Code...
+  BigBase.vcxproj -> C:\Users\cavec\Desktop\bigbase-master\Binaries\Debug\BigBase.dll

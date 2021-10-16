@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="MainScript.hpp" />
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>UI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>UI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>UI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>UI\IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UIManager.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TextBox.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Crossmap.hpp">
+      <Filter>NATIVES</Filter>
+    </ClInclude>
+    <ClInclude Include="Natives.hpp">
+      <Filter>NATIVES</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DRenderer.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomText.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="LogScript.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.hpp">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\NumberOption.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PlayerSubmenu.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularOption.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\RegularSubmenu.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Script.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptCallback.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptGlobal.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptManager.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SubOption.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Translation.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHook.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbstractOption.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\AbstractSubmenu.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseOption.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BaseSubmenu.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BoolOption.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ChooseOption.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="Lists.hpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Hooking</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainScript.cpp" />
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>UI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>UI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>UI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>UI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>UI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>UI\IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DRenderer.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomText.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="LogScript.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Hooking</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptCallback.cpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptManager.cpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>BigBaseDefaults</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="UI">
+      <UniqueIdentifier>{9eaed3ea-124a-4ae8-b017-a5dc5a035c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\IMGUI">
+      <UniqueIdentifier>{ce86ee81-5af3-469f-bb4d-7f9d61868ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NATIVES">
+      <UniqueIdentifier>{72e115f2-bcd0-4985-8e77-3cd91fbb4697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooking">
+      <UniqueIdentifier>{881aff2f-18da-497a-a50b-1809cf565884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BigBaseDefaults">
+      <UniqueIdentifier>{95b94a6c-715a-4d34-887e-27805e2acd95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
