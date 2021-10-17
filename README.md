@@ -5,10 +5,15 @@ This is my old ui for bigbase v1 but i dont need it anymore because the dev of s
 Includes:
 
 Custom scrollbar like impulse's
+
 YTD loader for a custom header 
+
 Controller support
+
 Save / Load theme settings
+
 Misc other changed
+
 
 I will not provide support for this!
 
