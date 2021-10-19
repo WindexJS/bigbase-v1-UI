@@ -15,7 +15,6 @@ Save / Load theme settings
 Misc other changed
 
 
-UI:
 ![UI_image](UI.png)
 
 
